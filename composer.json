@@ -1,0 +1,21 @@
+{
+    "name": "rssr/api",
+    "description": "HTTP Api component of rssr",
+    "keywords": ["rss"],
+    "license": "MIT",
+    "homepage": "https://github.com/rssr/Rssr.Api",
+    "authors" : [
+        {
+            "name": "Rssr Contributors",
+            "homepage": "https://github.com/rssr/Rssr.Api/contributors"
+        }
+    ],
+    "require": {
+        "league/fractal": "0.9.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rssr\\Api\\": "src/"
+        }
+    }
+}
